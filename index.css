@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#root {
+    display: grid;
+
+    grid-template-areas:
+        ". . ."
+        ". modal ."
+        ". . .";
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 900px;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: modal;
+
+    box-shadow: 1px 5px 10px lightslategrey;
+
+    font-weight: lighter ;
+}
