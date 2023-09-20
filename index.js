@@ -1,6 +1,8 @@
 const content = document.createElement('span')
 content.className = "modal"
-content.innerText = "A lot of interesting text"
+content.innerText = "I'm good, good\n" +
+    "I'm good\n" +
+    "Don't you know I'm good? Yeah, I'm feelin' alright"
 
 const root = document.getElementById("root")
 root.appendChild(content)

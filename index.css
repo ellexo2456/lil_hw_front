@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-area: modal;
+    text-align: center;
 
     box-shadow: 1px 5px 10px lightslategrey;
 
